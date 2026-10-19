@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv("poke.csv")
+# print(df.to_string())
+print(df.loc[df["Legendary"] == 1])
+# print(df["Name"] == "Pikachu")
+print(df.loc[df["Name"] == "Pikachu"])
+print(df.loc[:9])
+# print(df.loc[0:"Name"])
+print(df.loc[1,"Name"])
+# print(df["Name"])
